@@ -180,13 +180,19 @@ p {
     text-align: center;
     background: #f9f9f9;
 }
-#footer h1{
+#footer h1 {
     font-weight: 600;
     padding-top: 30px;
     text-shadow: 0px 0px 1px black;
 }
-#footer h1 span{
+#footer h1 span {
     color: #ffa500;
+}
+.subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
 }
 .social-links i{
     padding: 10px;
