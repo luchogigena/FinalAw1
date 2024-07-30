@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen de la Reserva</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage-Agencia de Viajes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Font Awesome iconos  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>Resumen de tu Reserva</h1>
+
+        <div id="reservation-summary">
+            <!-- El resumen se llenará aquí mediante JavaScript -->
+        </div>
+        <h2>Formulario de Datos del Cliente</h2>
+        <form id="customer-form">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Teléfono:</label>
+                <input type="tel" id="phone" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success">Confirmar Reserva</button>
+            <button type="button" id="cancel-button" class="btn btn-danger">Cancelar</button>
+        </form>
+        <a href="index.html" class="btn btn-primary mt-4">Volver al Inicio</a>
+    </div>
+
+    <script src="Resumen.js"></script>
+</body>
+
+</html>
